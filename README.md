@@ -18,8 +18,7 @@ Para su uso tenemos que:
 
 ## Más ejemplos
 
-Algunos ejemplos de funciones $M(x,y)$ y $N(x,y)$ que se pueden probar son:
-Ejemplos adicionales que pueden probar, M(x,y) y N(x,y) están separadas por comas:
+Algunos ejemplos de funciones $M(x,y)$ y $N(x,y)$ que se pueden probar para el campo vectorial son:
 
 ```matlab
 F = [ x.^2-y.*x, y.^2-x.*y];
@@ -33,6 +32,8 @@ F = [ 2.*x.*sin(2.*y)-3.*y.^2, 2-6.*x.*y+2.*x.^2.*cos(2.*y)];
 F = [ 6-2.*x.*y+y.^3, x.^2-8.*y+3.*x.*y.^2];
 F = [ y.^2+y.^2.*cos(x+y), 2.*x.*y-2.*y+y.^2.*cos(x+y)+2.*y.*sin(x+y) ];
 ```
+
+La curva está predefinida como una circunferencia y el parámetro $t$ se evalúa de $0 \rightarrow 6.2$ (~$2\pi$)
 
 ## Disclaimer
 
